@@ -17,7 +17,7 @@ const show2 = function () {
 };
 show(show2);
 
-// return from function
+// return a function
 function show3() {
   return function () {
     console.log("Hello from show3");
